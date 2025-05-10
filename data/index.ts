@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a complicated projects",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,130 +72,99 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
-  {
-    id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://brainbrain.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Brainwave ",
+    des: "Modern UI/UX website, developed using React.js and Tailwind CSS.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://wavewavewave.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Good Service",
+    des: "react project with simple and coool design and beautiful animations",
+    img: "/p3.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://goodservicegood.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Portfolio",
+    des: "Beautiful and simple portfolio using React and Tailwind CSS ...",
+    img: "/p2.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://mineminemi.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've had the opportunity to work with and observe Abdelhak as a frontend developer, and it's clear they're the kind of person who elevates every project they touch. Their skill set spans React.js, TypeScript, JavaScript, Git, and responsive design — all backed by a strong understanding of performance optimization and user experience. They don't just build interfaces; they craft seamless, high-performing digital experiences.",
+    name: "About Abdelhak Ettahri",
+    title: "Front End Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "What truly sets Abdelhak apart is their mindset. They're driven, motivated, and bring a rare level of dedication to their work. They treat every project — even ones for others — as if it were their own. That care shows in the way they design, code, and problem-solve. Their hunger to learn and their deep research skills ensure that solutions are never just surface-level — they're thoughtful, scalable, and rooted in best practices.",
+    name: "About Abdelhak Ettahri",
+    title: "Front End Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We've solved problems together, and each time, I saw someone who was not just technically capable but also incredibly collaborative. [Your Name] approaches challenges with curiosity, persistence, and a strong sense of ownership. They ask the right questions, seek better answers, and always aim for impact — not just completion.",
+    name: "About Abdelhak Ettahri",
+    title: "Front End Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "They also have a sharp eye for responsive and accessible design, making sure that what they build performs well and feels right across devices. Their frontend work is never just about visuals — it's about delivering meaningful, fast, and reliable user experiences.",
+    name: "About Abdelhak Ettahri",
+    title: "Front End Developer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "If you're looking for a frontend developer who cares deeply, works passionately, and delivers with consistency and excellence, I wholeheartedly recommendAbdelhak. They are the kind of developer who doesn't just meet expectations — they raise the bar.",
+    name: "About Abdelhak Ettahri",
+    title: "Front End Developer",
   },
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "React Developer",
+    desc: "Develop high quality Real World projects with beautiful 3D animations ",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Vue.js Developer",
+    desc: "Deal with Vue.js and its frameworks",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Devfest Hack React.js",
+    desc: "Deal with Real world problem and give solution using React",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "GCPC 2.O ",
+    desc: "Improve problem Solving Skills, work under pressure",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
